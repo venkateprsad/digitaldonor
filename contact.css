@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ddd;
+}
+header .logo {
+  position: relative;
+  min-width: 80px;
+}
+header ul {
+  position: relative;
+  display: flex;
+}
+header ul li {
+  list-style-type: none;
+}
+header ul li a {
+  display: inline-block;
+  color: #333;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+.container {
+  position: absolute;
+  top: 90px;
+}
+.frame {
+  position: relative;
+  margin-top: 200px;
+  /* margin-left: 80px; */
+}
+.headding {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+.back {
+  top: -530px;
+  position: relative;
+}
+.he {
+  position: relative;
+  top: -250px;
+  color: white;
+  padding-left: 20px;
+}
+.contact-details {
+  position: relative;
+  top: -500px;
+  margin-left: 100px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+  position: relative;
+  top: -450px;
+  padding-left: 100px;
+  margin-left: 50px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.query {
+  float: right;
+  margin-top: -850px;
+  padding-right: 100px;
+  position: relative;
+}
+.reg {
+  position: relative;
+  top: -600px;
+}
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 25px;
+  resize: vertical;
+  font-size: 18px;
+}
+#t1 {
+  width: 100%;
+  height: 20px;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 25px;
+  resize: vertical;
+  font-size: 18px;
+}
+#t2 {
+  width: 100%;
+  height: 20px;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 25px;
+  resize: vertical;
+  font-size: 18px;
+}
+#t4 {
+ 
+  background-color:#fff
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  margin-left: 90px;
+}
+.maps{
+  position: relative;
+  margin-right: 250px;
+  top:-200px;
+}
+.footer {
+  position: relative;
+  background-color: #ddd;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  top: 500px;
+  color: #333;
+  text-align: center;
+}
+.icon {
+  display: flex;
+  width: auto;
+}
