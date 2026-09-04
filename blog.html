@@ -1,102 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Digital Donor Blog Page</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link rel="stylesheet" href="./blog.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - Digital Donor Vlogs</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
 
-  <body>
-    <section>
-      <header>
-        <a href="#"><img src="logo.png" class="logo" width="80px" /></a>
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo-link">
+        <img src="images/logo.png" alt="Digital Donor Logo" class="logo" onerror="this.src='https://via.placeholder.com/80x80?text=Logo'">
+      </a>
+      <button class="mobile-toggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav class="nav-menu">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="Blog.html">Blog</a></li>
+          <li><a href="blog.html" class="active">Blog</a></li>
           <li><a href="contact-us.html">Contact</a></li>
         </ul>
-      </header>
-    </section>
-	<div class="w3-content" style="max-width:2000px;margin-top:46px">
-  <div class="blog">
-      <h1>MY BLOG</h1>
-      <div class="card">
+      </nav>
+    </div>
+  </header>
 
-       <a href="https://youtu.be/mT1uHMZUjjw"> <img src="Biriyani.png" alt="Biriyani" width="90%"></a>
-        <div class="container">
-        <h4><b>Matka Biriyani Blog</b></h4>
-        <p>Matka Biriyani is made by me By<br> using Bitiyani Masala chicken 
-          and all the items put into clay pot put into chulka after 15 mission<br>
-          chicken Biriyani is ready</p>
-          
-          </div>
-          </div>
-          <div class="card1">
+  <!-- Page Header -->
+  <section class="page-banner">
+    <h1>MY BLOG & VLOGS</h1>
+  </section>
 
-            <a href="https://youtu.be/mT1uHMZUjjw"> <img src="pa.jpg" alt="pakhala" height="auto" width="90%"></a>
-             <div class="container1">
-             <h4><b>Dahi Pakhala</b></h4>
-             <p>Dahi Pakhala is the famous dish among all over Odisha<br> 
-            The best combination to eat dahi Pakhala is 
-               Fish and masroom Fry with boil patato</p>
-             </div>
-             </div>
-            
-             <div class="card2">
-               <a href="https://youtu.be/YOAJ9hA8Gag"><img src="paradeep.png" alt="paradeep"  width="90%"></a>
-               <div class="container2">
-                 <h4><b>Paradeep Fishing Harbour</b></h4>
-                 <p>Paradeep fishing Harbour is the Big Fish Harbour<br>
-                  in the odisha.From this place vast amount of<br>
-                  fish to foreign through the ship</p>
-                  </div>
-                  </div>
+  <!-- Blog List -->
+  <section class="section container">
+    <div class="grid grid-2">
 
-                  <div class="card3">
-                    <a href="https://youtu.be/mzjxt2Rz0AU"><img src="momo.png" alt="paradeep" width="90%"></a>
-                    <div class="container3">
-                      <h4><b>Bhubanewar Special MoMos</b></h4>
-                      <p>I is placed infront of palheights<br>
-                       Its really delicious and yummuy to eat</p>
-                       
-                       </div>
-                       </div>
+      <!-- Card 1 -->
+      <div class="card blog-card">
+        <a href="https://youtu.be/mT1uHMZUjjw" target="_blank" class="card-img-link">
+          <img src="images/biriyani.png" alt="Matka Biriyani" onerror="this.src='https://via.placeholder.com/400x250?text=Matka+Biriyani'">
+          <div class="play-overlay"><i class="fas fa-play-circle"></i></div>
+        </a>
+        <div class="card-body">
+          <h3>Matka Biriyani Vlog</h3>
+          <p>Matka Biriyani prepared using secret spices, tender chicken, and slow cooked in a traditional clay pot over open chulka fire.</p>
+          <a href="https://youtu.be/mT1uHMZUjjw" target="_blank" class="btn btn-outline">Watch Video</a>
+        </div>
+      </div>
 
-                       <div class="card4">
-                        <a href="https://youtu.be/13UOsDBIQlk"><img src="minitapang.png" alt="minitapang" width="90%"></a>
-                        <div class="container4">
-                          <h4><b>Hidden Place minitapang</b></h4>
-                          <p>I is placed near Banki Mahaparbat<br>
-                           It looks like minitapang</p>
-                           
-                           </div>
-                           </div>
-                           <div class="card5">
-                            <a href="https://youtu.be/QNTiYerhfxw"><img src="pitabali.png" alt="pitabali" width="90%"></a>
-                            <div class="container5">
-                              <h4><b>Picnic Spot pitabali</b></h4>
-                              <p>I is placed  among Ramchandrapur Jungle<br>
-                               Its really best Place to make feast</p>
-                               
-                               </div>
-                               </div>
-                               </div>
-                               
-   
-                               <div class="footer">
-                                <div class="icon">
-                                  <label>Connect With Us</label>
-                                 <a href="https://www.facebook.com/digitaldonor/"> <i class="fab fa-facebook"></i></a>&nbsp;
-                                  <a href="https://www.instagram.com/digitaldonor/"><i class="fab fa-instagram"></i></a>&nbsp;
-                                  <a href="https://www.youtube.com/channel/UC4QOIYf8iqmyydku_-4GCYg"><i class="fab fa-youtube"></i></a>
-                                &nbsp;</div>
-                                <h3>
-                                  <i>Copyright reserved By</i> <br /><i>Digital Donor</i>
-                                </h3>
-                              </div>
-                              
+      <!-- Card 2 -->
+      <div class="card blog-card">
+        <a href="https://youtu.be/mT1uHMZUjjw" target="_blank" class="card-img-link">
+          <img src="images/pa.jpg" alt="Dahi Pakhala" onerror="this.src='https://via.placeholder.com/400x250?text=Dahi+Pakhala'">
+          <div class="play-overlay"><i class="fas fa-play-circle"></i></div>
+        </a>
+        <div class="card-body">
+          <h3>Dahi Pakhala Special</h3>
+          <p>Dahi Pakhala is the icon of Odia cuisine. Paired perfectly with roasted fish, mushroom fry, and mashed boiled potatoes.</p>
+          <a href="https://youtu.be/mT1uHMZUjjw" target="_blank" class="btn btn-outline">Watch Video</a>
+        </div>
+      </div>
 
-                            </body>
-                          </html>
+      <!-- Card 3 -->
+      <div class="card blog-card">
+        <a href="https://youtu.be/YOAJ9hA8Gag" target="_blank" class="card-img-link">
+          <img src="images/paradeep.png" alt="Paradeep Fishing Harbour" onerror="this.src='https://via.placeholder.com/400x250?text=Paradeep+Harbour'">
+          <div class="play-overlay"><i class="fas fa-play-circle"></i></div>
+        </a>
+        <div class="card-body">
+          <h3>Paradeep Fishing Harbour</h3>
+          <p>Exploring the largest fish harbor in Odisha where massive catches of seafood are exported across the globe.</p>
+          <a href="https://youtu.be/YOAJ9hA8Gag" target="_blank" class="btn btn-outline">Watch Video</a>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card blog-card">
+        <a href="https://youtu.be/mzjxt2Rz0AU" target="_blank" class="card-img-link">
+          <img src="images/momo.png" alt="Bhubaneswar Special Momos" onerror="this.src='https://via.placeholder.com/400x250?text=Bhubaneswar+Momos'">
+          <div class="play-overlay"><i class="fas fa-play-circle"></i></div>
+        </a>
+        <div class="card-body">
+          <h3>Bhubaneswar Special Momos</h3>
+          <p>Located in front of Pal Heights, serving some of the most delicious, juicy, and flavorful momos in the city.</p>
+          <a href="https://youtu.be/mzjxt2Rz0AU" target="_blank" class="btn btn-outline">Watch Video</a>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="card blog-card">
+        <a href="https://youtu.be/13UOsDBIQlk" target="_blank" class="card-img-link">
+          <img src="images/minitapang.png" alt="Hidden Place Minitapang" onerror="this.src='https://via.placeholder.com/400x250?text=Minitapang'">
+          <div class="play-overlay"><i class="fas fa-play-circle"></i></div>
+        </a>
+        <div class="card-body">
+          <h3>Hidden Spot: Mini Tapang</h3>
+          <p>Discovering a stunning hidden quarry lake near Banki Mahaparbat that looks like a miniature Tapang.</p>
+          <a href="https://youtu.be/13UOsDBIQlk" target="_blank" class="btn btn-outline">Watch Video</a>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="card blog-card">
+        <a href="https://youtu.be/QNTiYerhfxw" target="_blank" class="card-img-link">
+          <img src="images/pitabali.png" alt="Picnic Spot Pitabali" onerror="this.src='https://via.placeholder.com/400x250?text=Pitabali+Picnic'">
+          <div class="play-overlay"><i class="fas fa-play-circle"></i></div>
+        </a>
+        <div class="card-body">
+          <h3>Picnic Spot: Pitabali</h3>
+          <p>Nestled inside the scenic Ramchandrapur forest, Pitabali offers the perfect peaceful spot for outdoor feasts.</p>
+          <a href="https://youtu.be/QNTiYerhfxw" target="_blank" class="btn btn-outline">Watch Video</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="social-links">
+        <span>Connect With Us:</span>
+        <a href="https://www.facebook.com/digitaldonor/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/digitaldonor/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UC4QOIYf8iqmyydku_-4GCYg" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      </div>
+      <p class="copyright">&copy; Copyright Reserved by <strong>Digital Donor</strong></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
